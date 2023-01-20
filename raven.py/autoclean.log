@@ -1,0 +1,21 @@
+21-10-2022 11:09:07.58 - INFO - Started validation of input parameters...
+21-10-2022 11:09:07.59 - INFO - Completed validation of input parameters
+21-10-2022 11:09:07.59 - INFO - Started handling of missing values...
+21-10-2022 11:09:07.59 - DEBUG - 0 missing values found
+21-10-2022 11:09:07.60 - INFO - Completed handling of missing values in 0.006437 seconds
+21-10-2022 11:09:07.60 - INFO - Started handling of outliers... Method: "WINZ"
+21-10-2022 11:09:07.60 - INFO - Completed handling of outliers in 0.009855 seconds
+21-10-2022 11:09:07.60 - INFO - Started conversion of DATETIME features... Granularity: s
+21-10-2022 11:09:07.61 - INFO - Completed conversion of DATETIME features in 0.0118 seconds
+21-10-2022 11:09:07.62 - INFO - Started encoding categorical features... Method: "AUTO"
+21-10-2022 11:09:07.63 - DEBUG - Encoding to ONEHOT succeeded for feature "GroupName"
+21-10-2022 11:09:07.63 - INFO - Completed encoding of categorical features in 0.00771 seconds
+21-10-2022 11:09:07.63 - INFO - Started feature type conversion...
+21-10-2022 11:09:07.63 - DEBUG - Conversion to type INT succeeded for feature "x"
+21-10-2022 11:09:07.64 - DEBUG - Conversion to type INT succeeded for feature "y"
+21-10-2022 11:09:07.64 - DEBUG - Conversion to type INT succeeded for feature "z"
+21-10-2022 11:09:07.64 - DEBUG - Conversion to type INT succeeded for feature "GroupName_A"
+21-10-2022 11:09:07.65 - DEBUG - Conversion to type INT succeeded for feature "GroupName_B"
+21-10-2022 11:09:07.65 - DEBUG - Conversion to type INT succeeded for feature "GroupName_C"
+21-10-2022 11:09:07.65 - INFO - Completed feature type conversion for 6 feature(s) in 0.021933 seconds
+21-10-2022 11:09:07.65 - INFO - AutoClean completed successfully
